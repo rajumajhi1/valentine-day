@@ -1,0 +1,161 @@
+.music-section {
+  background-color: #fff;
+  padding: 4rem 2rem;
+}
+
+.music-player {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 2rem auto;
+  text-align: center;
+  border: 2px solid var(--primary-color);
+}
+
+.song-info {
+  margin-bottom: 2rem;
+}
+
+.song-info h3 {
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+  font-family: 'Dancing Script', cursive;
+}
+
+.song-info p {
+  font-size: 1.1rem;
+  color: var(--text-color);
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.control-button {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  padding: 0.5rem;
+}
+
+.control-button:hover {
+  transform: scale(1.1);
+}
+
+.play-button {
+  font-size: 2.5rem;
+}
+
+.volume-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.volume-slider {
+  -webkit-appearance: none;
+  width: 150px;
+  height: 5px;
+  border-radius: 5px;
+  background: #f0f0f0;
+  outline: none;
+}
+
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: var(--primary-color);
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.volume-slider::-webkit-slider-thumb:hover {
+  background: var(--secondary-color);
+}
+
+.volume-slider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: var(--primary-color);
+  cursor: pointer;
+  transition: background 0.2s ease;
+  border: none;
+}
+
+.volume-slider::-moz-range-thumb:hover {
+  background: var(--secondary-color);
+}
+
+.music-message {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  color: var(--text-color);
+}
+
+/* Progress Bar */
+.progress-bar {
+  width: 100%;
+  height: 5px;
+  background: #f0f0f0;
+  border-radius: 5px;
+  margin: 1rem 0;
+  cursor: pointer;
+  position: relative;
+}
+
+.progress-fill {
+  height: 100%;
+  background: var(--primary-color);
+  border-radius: 5px;
+  transition: width 0.1s linear;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .music-player {
+    padding: 1.5rem;
+  }
+
+  .song-info h3 {
+    font-size: 1.5rem;
+  }
+
+  .song-info p {
+    font-size: 1rem;
+  }
+
+  .controls {
+    gap: 1.5rem;
+  }
+
+  .control-button {
+    font-size: 1.5rem;
+  }
+
+  .play-button {
+    font-size: 2rem;
+  }
+
+  .volume-slider {
+    width: 100px;
+  }
+
+  .music-message {
+    font-size: 1rem;
+  }
+}
