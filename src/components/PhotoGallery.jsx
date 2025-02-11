@@ -1,6 +1,15 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import '../styles/PhotoGallery.css';
+import '../assets/img1.jpeg';
+import '../assets/img2.jpeg';
+import '../assets/img3.jpeg';
+import '../assets/img4.jpeg';
+import '../assets/img5.jpeg';
+import '../assets/img6.jpeg';
+import '../assets/img7.jpeg';
+import '../assets/img8.jpeg';
+import '../assets/img9.jpeg';
 
 const PhotoGallery = () => {
   const [selectedPhoto, setSelectedPhoto] = useState(null);
@@ -9,47 +18,47 @@ const PhotoGallery = () => {
   const photos = [
     {
       id: 1,
-      url: './assets/img1.jpeg', // Place your photo in public/photos/your-photo-1.jpg
+      url: '/src/assets/img1.jpeg', // Place your photo in public/photos/your-photo-1.jpg
       caption: 'When i saw you, first sight love🤩😚!!'
     },
     {
       id: 2,
-      url: './assets/img2.jpeg', // Place your photo in public/photos/your-photo-2.jpg
+      url: '/src/assets/img2.jpeg', // Place your photo in public/photos/your-photo-2.jpg
       caption: 'From this photo to FOREVER🤗🥰 !'
     },
     {
       id: 3,
-      url: './assets/img3.jpeg', // Place your photo in public/photos/your-photo-2.jpg
+      url: '/src/assets/img3.jpeg', // Place your photo in public/photos/your-photo-2.jpg
       caption: 'My cuty baby😘'
     },
     {
       id: 4,
-      url: './assets/img4.jpeg', // Place your photo in public/photos/your-photo-2.jpg
+      url: '/src/assets/img4.jpeg', // Place your photo in public/photos/your-photo-2.jpg
       caption: 'Only LOVE🙌❤'
     },
     {
       id: 5,
-      url: './assets/img5.jpeg', // Place your photo in public/photos/your-photo-2.jpg
+      url: '/src/assets/img5.jpeg', // Place your photo in public/photos/your-photo-2.jpg
       caption: 'Happy Baby 🤞💕'
     },
     {
       id: 6,
-      url: './assets/img6.jpeg', // Place your photo in public/photos/your-photo-2.jpg
+      url: '/src/assets/img6.jpeg', // Place your photo in public/photos/your-photo-2.jpg
       caption: 'I love You too 😍'
     },
     {
       id: 7,
-      url: './assets/img7.jpeg', // Place your photo in public/photos/your-photo-2.jpg
+      url: '/src/assets/img7.jpeg', // Place your photo in public/photos/your-photo-2.jpg
       caption: 'Shadowww😘'
     },
     {
       id: 8,
-      url: './assets/img8.jpeg', // Place your photo in public/photos/your-photo-2.jpg
+      url: '/src/assets/img8.jpeg', // Place your photo in public/photos/your-photo-2.jpg
       caption: 'Only U and ME❤😍'
     },
     {
       id: 9,
-      url: './assets/img9.jpeg', // Place your photo in public/photos/your-photo-2.jpg
+      url: '/src/assets/img9.jpeg', // Place your photo in public/photos/your-photo-2.jpg
       caption: 'Two Babies😍'
     }
     
