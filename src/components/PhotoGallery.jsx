@@ -9,47 +9,47 @@ const PhotoGallery = () => {
   const photos = [
     {
       id: 1,
-      url: '/src/assets/img1.jpg', // Place your photo in public/photos/your-photo-1.jpg
+      url: './assets/img1.jpeg', // Place your photo in public/photos/your-photo-1.jpg
       caption: 'When i saw you, first sight love🤩😚!!'
     },
     {
       id: 2,
-      url: '/src/assets/img2.jpg', // Place your photo in public/photos/your-photo-2.jpg
+      url: './assets/img2.jpeg', // Place your photo in public/photos/your-photo-2.jpg
       caption: 'From this photo to FOREVER🤗🥰 !'
     },
     {
       id: 3,
-      url: '/src/assets/img3.jpg', // Place your photo in public/photos/your-photo-2.jpg
+      url: './assets/img3.jpeg', // Place your photo in public/photos/your-photo-2.jpg
       caption: 'My cuty baby😘'
     },
     {
       id: 4,
-      url: '/src/assets/img4.jpg', // Place your photo in public/photos/your-photo-2.jpg
+      url: './assets/img4.jpeg', // Place your photo in public/photos/your-photo-2.jpg
       caption: 'Only LOVE🙌❤'
     },
     {
       id: 5,
-      url: '/src/assets/img5.jpg', // Place your photo in public/photos/your-photo-2.jpg
+      url: './assets/img5.jpeg', // Place your photo in public/photos/your-photo-2.jpg
       caption: 'Happy Baby 🤞💕'
     },
     {
       id: 6,
-      url: '/src/assets/img6.jpg', // Place your photo in public/photos/your-photo-2.jpg
+      url: './assets/img6.jpeg', // Place your photo in public/photos/your-photo-2.jpg
       caption: 'I love You too 😍'
     },
     {
       id: 7,
-      url: '/src/assets/img7.jpg', // Place your photo in public/photos/your-photo-2.jpg
+      url: './assets/img7.jpeg', // Place your photo in public/photos/your-photo-2.jpg
       caption: 'Shadowww😘'
     },
     {
       id: 8,
-      url: '/src/assets/img8.jpg', // Place your photo in public/photos/your-photo-2.jpg
+      url: './assets/img8.jpeg', // Place your photo in public/photos/your-photo-2.jpg
       caption: 'Only U and ME❤😍'
     },
     {
       id: 9,
-      url: '/src/assets/img9.jpg', // Place your photo in public/photos/your-photo-2.jpg
+      url: './assets/img9.jpeg', // Place your photo in public/photos/your-photo-2.jpg
       caption: 'Two Babies😍'
     }
     
