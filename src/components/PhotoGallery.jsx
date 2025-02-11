@@ -1,15 +1,8 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import '../styles/PhotoGallery.css';
-import '../assets/img1.jpeg';
-import '../assets/img2.jpeg';
-import '../assets/img3.jpeg';
-import '../assets/img4.jpeg';
-import '../assets/img5.jpeg';
-import '../assets/img6.jpeg';
-import '../assets/img7.jpeg';
-import '../assets/img8.jpeg';
-import '../assets/img9.jpeg';
+
+
 
 const PhotoGallery = () => {
   const [selectedPhoto, setSelectedPhoto] = useState(null);
