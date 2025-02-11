@@ -12,17 +12,17 @@ const MusicPlayer = () => {
     {
       title: "Hey Minnale",
       artist: "Amaran",
-      url: "./src/assets/audio1.mp3" // Replace with actual song URL
+      url: "/src/assets/audio1.mp3" // Replace with actual song URL
     },
     {
       title: "Jeene Laga Hoon",
       artist: "Ramaiya Vastavaiya",
-      url: "./src/assets/audio2.mp3" // Replace with actual song URL
+      url: "/src/assets/audio2.mp3" // Replace with actual song URL
     },
     {
       title: "Zulfo se teri",
       artist: "LOVE",
-      url: "./src/assets/audio3.mp3" // Replace with actual song URL
+      url: "/src/assets/audio3.mp3" // Replace with actual song URL
     }
   ];
 
